@@ -1,0 +1,22 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller (Build Artifacts)
+build/
+dist/
+# *.spec  <-- Uncomment this if you don't want to save your build configuration
+
+# Virtual Environments (uv defaults to .venv)
+.venv/
+venv/
+env/
+
+# IDE Settings (Optional but recommended)
+.vscode/
+.idea/
+
+# OS Specific
+.DS_Store
+Thumbs.db
