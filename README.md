@@ -16,6 +16,4 @@ Macro for Abyss Roblox Game, automatically play the minigame to catch the fish f
 
 
 ## DEMO
-<div align="center">
-  <video src="static/demo.mp4" width="100%" autoplay loop muted controls></video>
-</div>
+https://github.com/Luiso9/abyss-macro/blob/68dfb2f8d39cc355652283f9214c8634e5f29407/static/demo.mp4
