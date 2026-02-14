@@ -13,3 +13,8 @@ Macro for Abyss Roblox Game, automatically play the minigame to catch the fish f
 - Open the .exe.
 - Use "C" to toggle the macro.
 - Have fun.
+
+
+## DEMO
+[[video]]()
+![Abyss Macro Demo](static/demo.mp4)
