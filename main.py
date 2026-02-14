@@ -44,13 +44,13 @@ def main():
         
         fishY, barY = visual.findObjects(frameBGR)
         
-        if active:
-             cv2.imshow(windowName, frameBGR)
-             cv2.setWindowProperty(windowName, cv2.WND_PROP_TOPMOST, 1)
+        # if active:
+        #      cv2.imshow(windowName, frameBGR)
+        #      cv2.setWindowProperty(windowName, cv2.WND_PROP_TOPMOST, 1)
         
-        key = cv2.waitKey(1) & 0xFF
-        if key == exitKey or key == 27: # Exit on ESC
-            break
+        # key = cv2.waitKey(1) & 0xFF
+        # if key == exitKey or key == 27: # Exit on ESC
+        #     break
         
         if active and fishY is not None and barY is not None:
             output = pid.update(barY, fishY)

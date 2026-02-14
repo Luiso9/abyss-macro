@@ -16,7 +16,7 @@ class Detection:
             
     def _resourcePath(self, relativePath):
         try:
-            base_path = sys._MEIPASS
+            basePath = sys._MEIPASS
         except Exception:
             basePath = os.path.abspath(".")
         return os.path.join(basePath, relativePath)
