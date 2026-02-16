@@ -6,12 +6,12 @@ toggleKey = 'C'
 exitKey = '27' # esc
 
 # pid controller
-pidKP = 0.015
-pidKD = 0.008
+pidKP = 0.025
+pidKD = 0.012
 pidKI = 0.000
 
-minClickTime = 0.005
-maxClickTime = 0.100
+minClickTime = 0.003
+maxClickTime = 0.080
 
 barMatchThershold = 0.5
 
@@ -25,3 +25,9 @@ upperChest = np.array([25, 255, 150])
 
 lowerDark = np.array([0, 0, 0])
 upperDark = np.array([180, 255, 120])
+
+# im trying to use Kalman Filter
+useKalman = True
+kalmanProcessNoise = 0.05
+kalmanMeasurementNoise = 0.5
+kalmanEstimiateError = 1.0
