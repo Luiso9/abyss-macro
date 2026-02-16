@@ -6,7 +6,7 @@ Abyss Roblox Game Macro
 Macro for Abyss Roblox Game, automatically play the minigame to catch the fish for you. Only tested on 1920x1080.
 
 ## Known issue :
-- Macro confused between Chest Logo and Fish logo.
+- ~Macro confused between Chest Logo and Fish logo.~ (fixed)
 
 ## How to use :
 - Download .exe at release. (or manually run the source code using uv run python main.py)
